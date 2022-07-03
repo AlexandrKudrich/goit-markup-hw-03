@@ -22,14 +22,65 @@ body {
     letter-spacing: 0.03em;
 } 
 
+/* general container */
+.container {
+
+   width: 1200px;
+   margin: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+  
+   
+}
+
+
+/* section_about */
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+ 
+}
+
+/* what we do */
+
+.container {
+        width: 1200px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+/* out team  */
+.container {
+        width: 1200px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+.container-nav {
+        width: 1200px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom: 1px solid #ECECEC;
+}
+
+
+
+
 .list {
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 a {
     text-decoration: none;
 }
 
-/* site nav */
+
 
 /* logo */
 .logo-web {
@@ -62,6 +113,7 @@ a {
     cursor: default; 
 }
 
+/* site nav */
 
 .site-nav .link {
     color: var(--title-text-color);
@@ -99,23 +151,35 @@ a {
 
 .hero{
     background-color: #2F303A;
+    text-align: center;
 }
 
 .hero-title{
-    color: #fff;
-
+        color: #fff;
+        margin-top: 0px;
+        margin-bottom: 30px;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
+        
 }
 .hero-button{
+    display:inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    margin-bottom: 0px;
+
+    text-align: center;
     color:#fff;
     background-color:#2196F3 ;
     cursor: pointer;
     font-family: inherit;
+    border: transparent;
+    outline: none;
 
         font-weight: 700;
         font-size: 16px;
@@ -129,15 +193,35 @@ a {
 
 }
 .section-title{
+    
     color: var(--title-text-color)
 
+
+}
         
+.section-title-block {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+
+/* section_about */
+.section {
+        margin-bottom: 0px;
+        margin-top: 0px;
 }
 .section h3 {
-    font-weight: 700;
+        font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
+        margin-top:0 ;
+        margin-bottom: 10;
 }
 
 .section p {
@@ -145,15 +229,18 @@ a {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
+    
 
 }
-.section-title h3 {
+/* .section-title h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+} */
 
 .our-team {
     background-color:#F5F4FA ;
@@ -174,13 +261,18 @@ a {
         letter-spacing: 0.03em;
 }
 
-.what-we-do h2{
+/* .what-we-do h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-}
+} */
+ .what-we-do .list{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+ }
 
 /* footer */
 
@@ -244,10 +336,18 @@ a {
 /* portfolio_page_css  */
 
 .filter-buttons button {
+        border: transparent;
+        outline: none;
+        text-align: center;
+        display: inline-block;
+        border-radius: 4px;
+        min-width: 73 px;
+        padding:6px 22px ;
         font-family: inherit;
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 0.03em;
+    
 }
 
 .filter-buttons button{
