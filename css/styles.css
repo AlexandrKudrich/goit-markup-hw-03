@@ -1,11 +1,4 @@
-/* efect shine link blue #2196F3 */
-/* general text color black #212121 */
-/* second color text gray  #757575 */
-/* wight color in text #FFFFFF */
 
-/* general color site background  #FFFFFF */
-/* second background color Gray #F5F4FA */
-/* dark color sections footer and midle place #2F303A */
 
 :root {
     --primary-text-color:#757575;
@@ -21,6 +14,38 @@ body {
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
 } 
+.list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+.subscribing-text {
+    color: var(--primary-text-color)
+}
+
+.section-title {
+
+    color: var(--title-text-color)
+}
+
+.section-title-block {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+
+
+
 
 /* general container */
 .container {
@@ -69,9 +94,7 @@ body {
         width: 1200px;
         margin: auto;
         /* padding-left: 15px; */
-        /* padding-right: 15px; */
-       
-}
+        /* padding-right: 15px; */}
 
 
 .container-heder {
@@ -84,50 +107,31 @@ body {
     align-items: center;
 }
 
+.container-about .list {
 
-
-
-.list {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-}
-a {
-    text-decoration: none;
+    display: flex;
+    align-items: space-around;
 }
 
 
 
 /* logo */
+
 .logo-web {
     color: var(--accent-color);
     cursor: default;
-    display: flex;
-    
- 
-   
-
-}
+    display: flex;}
 
 .logo-studio {
     color: #000000;
     cursor: default;
-    display: flex;
-    
-  
-
-    
-}
+    display: flex;}
 
 .full-logo :focus{
     color: var(--accent-color);
     text-decoration: none;
     cursor: default;
-    display: flex;
-  
-    
-
-}
+    display: flex;}
 
 .full-logo {
     font-family: Raleway, sans-serif;
@@ -135,16 +139,13 @@ a {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    display: flex;
-
-       
-}
+    display: flex;}
 
 .full-logo {
     cursor: default; 
     align-items: center;
     margin-right: 93px;
-    padding-top: 24px;
+    padding-top: 23px;
     padding-bottom: 25px;
 }
 
@@ -157,7 +158,7 @@ a {
 }
 
 .site-nav .link{
-        padding-top: 32px;
+        padding-top: 31px;
         padding-bottom: 32px;
         display: block;
 }
@@ -184,7 +185,7 @@ a {
 }
 
 .auth-nav .link {
-        padding-top: 32px;
+        padding-top: 31px;
         padding-bottom: 32px;
         display: block;
 }
@@ -214,11 +215,12 @@ a {
 .auth-nav {
     display: block;
     display: flex;
-    margin: auto;
+    margin-left: auto;
 }
 
 /* main */
 
+/* hero */
 .hero{
     background-color: #2F303A;
     text-align: center;
@@ -236,6 +238,7 @@ a {
         text-transform: uppercase;
         
 }
+/* hero button */
 .hero-button{
     display:inline-block;
     border-radius: 4px;
@@ -258,41 +261,13 @@ a {
     
     }
 
-.subscribing-text{
-    color: var(--primary-text-color)
-
-}
-.section-title{
-    
-    color: var(--title-text-color)
-
-
-}
-        
-.section-title-block {
-    margin-top: 0px;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color)
-}
-
 /* section_about */
+
 .section {
         margin-bottom: 0px;
         margin-top: 0px;
 }
-.section h3 {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        margin-top:0 ;
-        margin-bottom: 10;
-}
+
 
 .section p {
     font-weight: 400;
@@ -301,49 +276,52 @@ a {
     letter-spacing: 0.03em;
     margin-top: 0;
     margin-bottom: 0;
-    
+    text-align: left;    
 
 }
-/* .section-title h3 {
+.section-title  {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-} */
-
-.our-team {
-    background-color:#F5F4FA ;
-  
+    margin-top: 0;
+    margin-bottom: 10;
 }
 
-.team-title {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.18;
-        letter-spacing: 0.03em;
-        color: #212121;
-}
-.section-subscribe {
+.section .list {
+    margin-bottom: 94px;
 
-      
-        line-height: 1.18;
-        letter-spacing: 0.03em;
 }
 
-/* .what-we-do h2{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-} */
+/* what we do  */
+
  .what-we-do .list{
     margin-top: 0px;
     margin-bottom: 0px;
 
  }
 
+ /* our team  */
+ .team-title {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.18;
+     letter-spacing: 0.03em;
+     color: #212121;
+ }
+
+ .section-subscribe {
+     line-height: 1.18;
+     letter-spacing: 0.03em;
+    }
+
+.our-team {
+    background-color: #F5F4FA;
+
+}
+
+    
 /* footer */
 
 .address {
