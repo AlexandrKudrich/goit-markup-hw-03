@@ -60,12 +60,28 @@ body {
     }
 
 
+.container-nav .main {
+    display: flex;
+
+}
 .container-nav {
+        
         width: 1200px;
         margin: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-bottom: 1px solid #ECECEC;
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
+       
+}
+
+
+.container-heder {
+    width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -86,17 +102,29 @@ a {
 .logo-web {
     color: var(--accent-color);
     cursor: default;
+    display: flex;
+    
+ 
+   
+
 }
 
 .logo-studio {
     color: #000000;
     cursor: default;
+    display: flex;
+    
+  
+
+    
 }
 
 .full-logo :focus{
     color: var(--accent-color);
     text-decoration: none;
     cursor: default;
+    display: flex;
+  
     
 
 }
@@ -104,26 +132,62 @@ a {
 .full-logo {
     font-family: Raleway, sans-serif;
        
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    display: flex;
+
+       
 }
 
 .full-logo {
     cursor: default; 
+    align-items: center;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 /* site nav */
 
+.site-nav{
+
+    display: flex;
+    
+}
+
+.site-nav .link{
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: block;
+}
+
+.site-nav .item{
+    margin-right: 50px;
+}
+
+.site-nav .item:last-child{
+    margin-right: 0;
+}
 .site-nav .link {
-    color: var(--title-text-color);
+        color: var(--title-text-color);
 
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+    
 }
 
+.auth-nav .item + .item {
+    margin-left: 50px;
+}
+
+.auth-nav .link {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: block;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
    color: var(--accent-color) ;
@@ -131,9 +195,9 @@ a {
  
 }
 .auth-nav a{
-    color: var(--primary-text-color);
-    text-decoration: none;
-    cursor: default;
+        color: var(--primary-text-color);
+        text-decoration: none;
+        cursor: default;
 
         font-weight: 500;
         font-size: 14px;
@@ -144,7 +208,13 @@ a {
 .auth-nav .link:focus {
     color: var(--accent-color);
     cursor: default;
-       color: rgba(red, green, blue, alpha);
+       /* color: rgba(red, green, blue, alpha); */
+}
+
+.auth-nav {
+    display: block;
+    display: flex;
+    margin: auto;
 }
 
 /* main */
