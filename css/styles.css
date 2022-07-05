@@ -32,6 +32,10 @@ a {
 
     color: var(--title-text-color)
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .section-title-block {
     margin-top: 0px;
@@ -58,43 +62,17 @@ a {
    
 }
 
-
-/* section_about */
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
- 
-}
-
-/* what we do */
-
-.container {
-        width: 1200px;
-        margin: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-}
-
-/* out team  */
-.container {
-        width: 1200px;
-        margin: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-
+/* container Header */
 .container-nav .main {
     display: flex;
 
 }
+
 .container-nav {
-        
-        width: 1200px;
-        margin: auto;
-        /* padding-left: 15px; */
-        /* padding-right: 15px; */}
+
+    width: 1200px;
+    margin: auto;
+}
 
 
 .container-heder {
@@ -107,10 +85,40 @@ a {
     align-items: center;
 }
 
-.container-about .list {
-
+/* container section_about */
+.container-about .list{
+    width: 1200px;
     display: flex;
-    align-items: space-around;
+    justify-content: space-between;
+
+}
+
+/* container what we do */
+
+.container-what-we-do .list{
+        width: 1200px;
+       
+        
+       
+        
+}
+
+/* container out team  */
+.container-our-team .list{
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+/* container footer */
+
+.footer-container {
+        width: 1200px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    
 }
 
 
@@ -263,6 +271,7 @@ a {
 
 /* section_about */
 
+
 .section {
         margin-bottom: 0px;
         margin-top: 0px;
@@ -287,22 +296,36 @@ a {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10;
+    
 }
 
 .section .list {
-    margin-bottom: 94px;
+    display: flex;    
+    }
+
+
+      
+.list .items {
+    width: 270px;
+    margin-bottom: 0px;
+    
 
 }
 
 /* what we do  */
 
- .what-we-do .list{
-    margin-top: 0px;
-    margin-bottom: 0px;
 
- }
-
+.what-we-do .list{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
  /* our team  */
+section .our-team{ 
+    
+}
+
  .team-title {
      font-weight: 500;
      font-size: 16px;
@@ -321,11 +344,36 @@ a {
 
 }
 
-    
+
 /* footer */
+
+.full-logo-footer:focus {
+    color: var(--accent-color);
+    text-decoration: none;
+    cursor: default;
+    display: flex;
+}
+
+.full-logo-footer{
+    font-family: Raleway, sans-serif;
+
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    display: flex;
+}
+
+.full-logo-footer {
+    cursor: default;
+    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 25px;
+}
+
 
 .address {
     font-style: normal;
+    
 }
 
 .footer-nav .link {
@@ -360,11 +408,6 @@ a {
     cursor: default;
 }
 
-.footer-link .link:hover,
-.footer-link .link:focus {
-    color: rgba(red, green, blue, alpha)
-}
-
 .footer-nav .footer-link {
     font-weight: 400;
     font-size: 14px;
@@ -373,11 +416,9 @@ a {
 }
 .footer{
     background-color: #2F303A;
-
 }
 
-
-.logo-studio-footer{
+.logo-studio-footer {
     color: #fff;
 }
 
