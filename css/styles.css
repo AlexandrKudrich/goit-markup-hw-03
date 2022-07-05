@@ -444,25 +444,70 @@ section .our-team{
 }
 .filter-buttons button,
 
-.filter-buttons button :focus{
+.filter-buttons button :focus {
     background-color: #F5F4FA;
 }
-.filter-buttons :hover{
+
+.filter-buttons :hover {
     color: var(--accent-color)
 }
-.filter-buttons button:hover{
+
+.filter-buttons button:hover {
     color: #fff;
     background-color: #2196F3;
 }
-.our-projects h3 {
+
+.list h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-}
+    color: #212121;}
 
 .our-projects p{
        
         line-height: 1.87;
         letter-spacing: 0.03em;
 }
+
+/* buttons */
+.filter-buttons .list{
+    display: flex;
+    justify-content: center;
+}
+
+.list .buttons {
+
+    margin-right: 8px;
+}
+
+.list .buttons:last-child{
+    margin-right: 0px;
+}
+
+
+/* pictures  */
+
+.our-projects .list {
+ 
+    display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        margin-right: 30px;
+}
+
+.list .pictures:nth-child(2){
+  /* background-color: orange; */
+padding-left: 30px;
+    padding-right: 30px;
+     }
+.list .pictures:nth-child(5) {
+    /* background-color: orange; */
+    padding-left: 30px;
+        padding-right: 30px;
+    }
+.list .pictures:nth-child(8) {
+     /* background-color: orange; */
+     padding-left:30px ;
+     padding-right: 30px;
+    }
