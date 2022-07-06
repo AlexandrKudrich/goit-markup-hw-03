@@ -169,22 +169,24 @@ a {
         line-height: 1.14;
         letter-spacing: 0.02em;
     
-}
+ }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+ .site-nav .link:hover,
+ .site-nav .link:focus {
     color: var(--accent-color);
     cursor: default;
-}
+ }
 
-
-.auth-nav {
+ .auth-nav { 
+    margin-left: auto;
+ }
+ .auth-nav {
     display: flex;
    
-}
+ }
 .auth-nav .item + .item {
     margin-left: 50px;
-}
+ }
 
     .auth-nav .link {
         padding-top: 31px;
@@ -299,6 +301,7 @@ a {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin: 0;
     color: var(--primary-text-color);
 }
 
@@ -328,14 +331,15 @@ a {
     display: flex;
     justify-content: space-between;
  }
- 
+
+ .whatwedo {
+    padding-top: 0px;
+ }
 
 
 
 
                 /* Our Team  */
-
-
 
 
 
@@ -359,6 +363,7 @@ a {
         letter-spacing: 0.03em;
         margin: 0px;
         margin-top: 10px;
+       
     }
 
  .our-team {
@@ -400,13 +405,15 @@ a {
     line-height: 1.19;
     letter-spacing: 0.03em;
     display: flex;
+    margin-bottom: 30px;
+    
  }
 
  .full-logo-footer {
     cursor: default;
     align-items: center;
-    padding-top: 23px;
-    padding-bottom: 25px;
+    
+    
  }
 
 
@@ -455,6 +462,8 @@ a {
  }
  .footer{
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
  }
 
  .logo-studio-footer {
@@ -462,8 +471,19 @@ a {
  }
 
 
-
+.footer-links{
+    margin-bottom:9px ;
+}
+.footer-links:last-child {
+    margin-bottom: 0px;}
  
+
+
+
+
+
+
+
                 /* Portfolio_Page_CSS */
 
 
@@ -509,13 +529,25 @@ a {
         letter-spacing: 0.03em;
  }
 
+
+
+
+
+
+
                        /* buttons */
+
+
+
+
 
 
 
  .filter-buttons .list{
     display: flex;
-    justify-content: center;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    gap: 30px;
  }
 
  .list .buttons {
@@ -526,18 +558,26 @@ a {
     margin-right: 0px;
  }
 
- .but {
+ .list.but{
+    gap: 0px;
+    display: flex;
+    justify-content: center;
     margin-top: 94px;
-    margin-bottom: 50px;
+   
  }
 
+
                        /* pictures  */
+
+
+
+
 
 
  .pictures {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
    
  }
  
@@ -563,14 +603,16 @@ a {
  }
 
 
-
  .portfolio-pic {
   
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
     border-right: 1px solid #ECECEC;
     border-left: 1px solid #ECECEC;
     border-bottom: 1px solid #ECECEC;
 
  } 
-
+ 
+.imgs {display: block;}
