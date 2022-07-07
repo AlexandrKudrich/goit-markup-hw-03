@@ -426,7 +426,7 @@ a {
     text-decoration: none;
  }
  .footer-nav .link {
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);
     cursor: default;
  }
 
@@ -450,7 +450,7 @@ a {
  }
 
  .footer-link {
-    color: var(--primary-text-color);
+   
     cursor: default;
  }
  
@@ -543,7 +543,7 @@ a {
 
 
 
- .filter-buttons .list{
+ .filter-buttons {
     display: flex;
     padding-top:30px ;
     padding-bottom: 30px;
@@ -562,9 +562,11 @@ a {
     gap: 0px;
     display: flex;
     justify-content: center;
-    margin-top: 94px;
-   
+    margin-bottom: 50px;
+    
  }
+
+ 
 
 
                        /* pictures  */
@@ -577,6 +579,7 @@ a {
  .pictures {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
     
    
  }
